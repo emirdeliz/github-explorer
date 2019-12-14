@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "jest --verbose=false --setupTestFrameworkScriptFile=./setupTest.js"
+    "test": "jest --verbose=false --setupTestFrameworkScriptFile=./setupTest.js",
+    "lint:tsscript": "tslint 'src/**/*.ts*'"
   },
   "dependencies": {
     "@types/enzyme": "^3.10.4",
@@ -30,6 +31,8 @@
     "jest-styled-components": "^6.3.4",
     "jsdom": "^15.2.1",
     "ts-jest": "^24.2.0",
+    "tslint": "^5.20.1",
+    "tslint-react": "^4.1.0",
     "typescript": "^3.7.3"
   }
 }
