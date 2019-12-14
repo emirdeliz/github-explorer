@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "test": "jest --verbose=false --setupTestFrameworkScriptFile=./setupTest.js",
-    "lint:tsscript": "tslint 'src/**/*.ts*'"
+    "lint:tsscript": "tslint -c tslint.json 'src/**/*.ts*'"
   },
   "dependencies": {
     "@types/enzyme": "^3.10.4",

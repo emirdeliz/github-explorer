@@ -6,9 +6,9 @@ module.exports = {
     assign(config, {
       resolve: assign(config.resolve, {
         alias: assign({}, config.resolve.alias, {
-          '@framework': path.resolve('framework'),
-          '@components': path.resolve('components'),
-          '@system': path.resolve('system'),
+          '@framework': path.resolve('src/framework'),
+          '@components': path.resolve('src/components'),
+          '@system': path.resolve('src/system'),
         }),
       }),
     })
