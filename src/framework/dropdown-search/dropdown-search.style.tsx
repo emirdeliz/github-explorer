@@ -1,6 +1,6 @@
-import { EColors, EFontSize } from '@system/theme';
-import FormControl from '@framework/form-control/form-control.style';
-import styled from 'styled-components';
+import FormControl from "@framework/form-control/form-control.style";
+import { EColors, EFontSize } from "@system/theme";
+import styled from "styled-components";
 
 /**
  * Container of the dropdown-search.
@@ -14,7 +14,7 @@ const DropdownSearch = styled.div<{ showMenu: boolean }>`
   ${(props) => props.showMenu ? `
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-` : ''}
+` : ""}
 
   input {
     width: calc(100% - 45px);

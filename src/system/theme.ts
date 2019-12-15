@@ -16,6 +16,6 @@ enum EColors {
 enum EFontSize {
   small = "0.8rem",
   normal = "0.9rem",
-};
+}
 
 export { EColors, EFontSize };

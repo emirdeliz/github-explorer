@@ -1,5 +1,5 @@
-import React from 'react';
-import InputTextStyle from './input-text.style';
+import React from "react";
+import InputTextStyle from "./input-text.style";
 
 interface IInputText {
   value?: string|number;
@@ -11,6 +11,6 @@ interface IInputText {
 
 const InputText = (props: IInputText) => (
   <InputTextStyle {...props} />
-)
+);
 
 export default React.memo(InputText);

@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from "react";
 
-import InfiniteScrollStyle from './infinite-scroll.style';
+import InfiniteScrollStyle from "./infinite-scroll.style";
 
 interface IInfiniteScroll {
   children: any;
@@ -12,7 +12,7 @@ const InfiniteScroll = (props: IInfiniteScroll) => {
 
   useEffect(() => {
     const el = container.current;
-    el.addEventListener('scroll', function() {
+    el.addEventListener("scroll", () => {
       if (el.scrollTop + el.clientHeight >= el.scrollHeight) {
         props.onLoadMore();
       }
@@ -22,8 +22,8 @@ const InfiniteScroll = (props: IInfiniteScroll) => {
   return(
     <InfiniteScrollStyle ref={container}>
       {props.children}
-    </InfiniteScrollStyle>  
+    </InfiniteScrollStyle>
   );
-}
+};
 
 export default React.memo(InfiniteScroll);

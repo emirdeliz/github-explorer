@@ -1,6 +1,5 @@
-// import { font } from '@System/Colors/Theme';
-import styled from 'styled-components';
-import { EColors } from '@system/theme';
+import { EColors } from "@system/theme";
+import styled from "styled-components";
 
 /**
  * Container of the repository.
@@ -8,6 +7,5 @@ import { EColors } from '@system/theme';
 const Repository = styled.div`
   padding: 15px;
 `;
-
 
 export default Repository;

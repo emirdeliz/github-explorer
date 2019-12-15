@@ -1,5 +1,4 @@
-// import { font } from '@System/Colors/Theme';
-import styled from 'styled-components';
+import styled from "styled-components";
 
 /**
  * Container of the search icon.

@@ -1,6 +1,6 @@
-import React from 'react';
-import { EColors } from  '@system/theme';
-import SearchIconStyle from './search-icon.style';
+import { EColors } from "@system/theme";
+import React from "react";
+import SearchIconStyle from "./search-icon.style";
 
 const SearchIcon = () => (
   <SearchIconStyle>

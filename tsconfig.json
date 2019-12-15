@@ -11,16 +11,16 @@
     "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
-    "esModuleInterop": true,
+    "esModuleInterop": false,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "baseUrl": "./",
+    "baseUrl": "./src",
     "paths": {
-      "@framework/*": ["src/framework/*"],
-      "@components/*": ["src/components/*"],
+      "@framework/*": ["framework/*"],
+      "@components/*": ["components/*"],
       "@system/*": ["system/*"]
     }
   },

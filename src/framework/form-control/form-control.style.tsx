@@ -1,5 +1,5 @@
-import { css } from 'styled-components';
-import { EFontSize } from '@system/theme';
+import { EFontSize } from "@system/theme";
+import { css } from "styled-components";
 
 /**
  * Container of the input.
