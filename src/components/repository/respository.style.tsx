@@ -5,7 +5,9 @@ import styled from "styled-components";
  * Container of the repository.
  */
 const Repository = styled.div`
-  padding: 15px;
+  h1, h3 {
+    margin: 0;
+  }
 `;
 
 export default Repository;
