@@ -1,9 +1,9 @@
-const { pathsToModuleNameMapper } = require('ts-jest/utils');
-const { compilerOptions } = require('./tsconfig');
+const { pathsToModuleNameMapper } = require("ts-jest/utils");
+const { compilerOptions } = require("./tsconfig");
 
 module.exports = {
-  preset: 'ts-jest',
-  testEnvironment: 'jsdom',
+  preset: "ts-jest",
+  testEnvironment: "jsdom",
   globals: {
     // we must specify a custom tsconfig for tests because we need the typescript transform
     // to transform jsx into js rather than leaving it jsx such as the next build requires.  you
@@ -12,5 +12,5 @@ module.exports = {
       tsConfig: "tsconfig.jest.json"
     }
   },
-  moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, { prefix: '<rootDir>' }),
+  moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, { prefix: "<rootDir>/src/" }),
 };
