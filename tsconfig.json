@@ -11,7 +11,7 @@
     "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
-    "esModuleInterop": false,
+    "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
@@ -19,9 +19,15 @@
     "jsx": "preserve",
     "baseUrl": "./src",
     "paths": {
-      "@framework/*": ["framework/*"],
-      "@components/*": ["components/*"],
-      "@system/*": ["system/*"]
+      "@framework/*": [
+        "framework/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@system/*": [
+        "system/*"
+      ]
     }
   },
   "exclude": [
