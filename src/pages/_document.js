@@ -25,7 +25,7 @@ export default class MyDocument extends Document {
         <Head>
           <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico" />
         </Head>
-        <body>
+        <body style={{ margin: 0 }}>
           <Main />
           <NextScript />
         </body>
