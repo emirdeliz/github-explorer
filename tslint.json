@@ -5,9 +5,6 @@
     "jsx-boolean-value": false,
     "jsx-no-multiline-js": false,
     "max-classes-per-file": false,
-    "max-line-length": [true, 500],
-    "import/no-unresolved": {
-      "ignore": "@"
-    }
+    "max-line-length": [true, 500]
   }
 }
