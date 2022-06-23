@@ -29,7 +29,7 @@
     "eslint-plugin-react": "^7.17.0",
     "jest": "^24.9.0",
     "jest-styled-components": "^6.3.4",
-    "jsdom": "^15.2.1",
+    "jsdom": "^16.5.0",
     "ts-jest": "^24.2.0",
     "tslint": "^5.20.1",
     "tslint-react": "^4.1.0",
